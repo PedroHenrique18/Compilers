@@ -4,7 +4,7 @@
 
 The codes were developed for professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab06)
 
-## A solução
+## The solution
 
 basically it was adding this code snippet
 
