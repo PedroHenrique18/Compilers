@@ -47,7 +47,7 @@ if (peek == '/')
 	}
 ```
 
-Single line comment "//"
+## Single line comment "//"
 
 ```c++
 if (peek == '/')
@@ -70,6 +70,8 @@ if (peek == '/')
 ```
 
 The code checks if "peek" is "/" . If it is, it keeps checking if the next character is also "/", it means it is a comment line, the code ignores all characters until a new line "\n"
+
+## Block comment "/*......*/"
 
 ```c++
 {
