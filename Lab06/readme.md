@@ -74,7 +74,8 @@ The code checks if "peek" is "/" . If it is, it keeps checking if the next chara
 ## Block comment "/*......*/"
 
 ```c++
-{
+while (true)
+        {
             peek = cin.get();  // Lê o próximo caractere
             
             // Se encontrar uma nova linha, incrementa a contagem de linhas
