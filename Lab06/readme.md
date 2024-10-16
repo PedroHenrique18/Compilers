@@ -71,7 +71,7 @@ if (peek == '/')
 
 The code checks if "peek" is "/" . If it is, it keeps checking if the next character is also "/", it means it is a comment line, the code ignores all characters until a new line "\n"
 
-## Block comment "/*......*/"
+## Block comment "/* ...... */"
 
 ```c++
 while (true)
@@ -94,4 +94,4 @@ while (true)
 		}
 ```
 
-If the next character after "/" is a "*" it means it is a comment in the block, the code loops and ignores all characters up to the character sequence */
+If the next character after "/" is a "*" it means it is a comment in the block, the code goes into a loop and ignores all characters up to the string */
