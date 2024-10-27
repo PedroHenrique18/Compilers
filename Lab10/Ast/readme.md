@@ -51,11 +51,16 @@ int main()
  ```
 
 Result:
-`<SEQ> <ASSIGN> i = 15 </ASSIGN> 
- <SEQ> <ASSIGN> j = 30 </ASSIGN>
- <SEQ> <ASSIGN> x = true </ASSIGN> 
- <SEQ> <ASSIGN> z = false </ASSIGN> 
- </SEQ> </SEQ> </SEQ> </SEQ>`
+
+`<SEQ> <ASSIGN> i = 15 </ASSIGN> `
+
+`<SEQ> <ASSIGN> j = 30 </ASSIGN>`
+ 
+`<SEQ> <ASSIGN> x = true </ASSIGN> `
+ 
+`<SEQ> <ASSIGN> z = false </ASSIGN> `
+ 
+`</SEQ> </SEQ> </SEQ> </SEQ>`
   
 
 
