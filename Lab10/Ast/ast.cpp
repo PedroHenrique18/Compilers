@@ -164,9 +164,15 @@ Seq::Seq(Statement *s, Statement *ss) : Statement(NodeType::SEQ), stmt(s), stmts
 
 Assign::Assign(Expression *i, Expression *e) : Statement(NodeType::ASSIGN), id(i), expr(e)
 {
-    // verificação de tipos
-    if (id->type != expr->type)
-    {
+    // Conversão de int para bool, se necessário
+    if (id->type == ExprType::BOOL && expr->type == ExprType::INT) {
+        int value = stoi(expr->token->lexeme); // Converte o valor do int
+        expr->type = ExprType::BOOL; // Define o tipo como BOOL
+        expr->token->lexeme = (value == 0) ? "false" : "true"; // Atualiza o lexeme para "true" ou "false"
+        expr->token->tag = (value == 0) ? Tag::FALSE : Tag::TRUE; // Define o valor booleano
+    }
+    else if (id->type != expr->type) {
+        // Lança um erro se os tipos não forem compatíveis
         stringstream ss;
         ss << "\'=\' usado com operandos de tipos diferentes ("
            << id->Name() << ":" << id->Type() << ") ("
