@@ -9,6 +9,8 @@ The codes were developed for professor JUDSON SANTIAGO where you find [here](htt
 
 ## The solution
 
+Verify if the conversion is necessary
+
 ```c++
 
 if (id->type == ExprType::BOOL && expr->type == ExprType::INT) {
@@ -19,5 +21,42 @@ if (id->type == ExprType::BOOL && expr->type == ExprType::INT) {
     }
 
 ```
+
+- Check if the variable `id` is of type `Bool` ```id->type == ExprType::BOOL ```
+- Check if the expression (`expr`) is of type `int` ```expr->type == ExprType::INT```
+- If both conditions are true, a convert will be made
+- ```int value = stoi(expr->token->lexeme)``` Convert the content (`lexeme`) of `expr` to an `int`
+- ```expr->type = ExprType::BOOL;``` Change type from (`expr`) to `bool`
+- ```expr->token->lexeme = (value == 0) ? "false" : "true";``` If `value` is `0`, `lexeme` will be updated to `false`, else the `lexeme` will be updated to `true`
+- ```expr->token->tag = (value == 0) ? Tag::FALSE : Tag::TRUE;``` If `id` and `expr` have different types, an exception will be thrown to indicate an error (excepted int -> bool)
+
+## Example
+
+```c++
+   
+int main()
+{
+  // variáveis
+  int i;
+  int j;
+  bool z;
+  bool x;
+
+  // atribuições
+  i = 15;
+  j = 30;
+  x = 50;
+  z = 0;
+}
+ ```
+
+Result:
+`<SEQ> <ASSIGN> i = 15 </ASSIGN> 
+ <SEQ> <ASSIGN> j = 30 </ASSIGN>
+ <SEQ> <ASSIGN> x = true </ASSIGN> 
+ <SEQ> <ASSIGN> z = false </ASSIGN> 
+ </SEQ> </SEQ> </SEQ> </SEQ>`
+  
+
 
 
