@@ -1,1 +1,1 @@
-** Laboratory 02 semantic analyzer
+# Laboratory 02 - Semantic Analyzer
