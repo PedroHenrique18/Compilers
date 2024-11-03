@@ -1,9 +1,10 @@
 # Laboratory 03 - Intermediate code generation
 
-The codes were developed for professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab11)
-
 ## Modify the project in order to generate Intermediate code for `While` instruction.
 
+The codes were developed for professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab11)
+
+## The Solution
 ```c++
 void While::Gen()
 {
