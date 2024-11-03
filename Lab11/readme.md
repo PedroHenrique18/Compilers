@@ -2,7 +2,7 @@
 
 The codes were developed for professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab11)
 
-## This project includes the intermediate code generation for instruction `While`.
+## Modify the project in order to generate Intermediate code for `While` instruction.
 
 ```c++
 void While::Gen()
