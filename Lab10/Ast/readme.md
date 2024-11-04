@@ -1,6 +1,6 @@
 # Laboratory 02 - Semantic Analyzer
 
-The codes were developed for professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab10)
+The codes were developed by professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab10)
 
 ## This project includes automatic conversion the `int` for `bool`.
 
