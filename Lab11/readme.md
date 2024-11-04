@@ -9,16 +9,23 @@ The codes were developed for professor JUDSON SANTIAGO where you find [here](htt
 void While::Gen()
 {
 
-    cout << "L" << before << ":" << endl; // Cria o label para o início do loop
-    Expression *n = Rvalue(expr); // Avalia a condição do loop
-    // Se a condição for falsa, salta para o label do fim do loop
+    cout << "L" << before << ":" << endl; //Cria o label 
+    Expression *n = Rvalue(expr); //Avalia a condição
+    //Se a condição for falsa, vá para o fim do loop
     cout << "\tifFalse " << n->ToString() << " goto L" <<after<< endl;
-    // Gera o corpo do loop
+    //Gera o codigo
     stmt->Gen(); 
-    // Salta de volta para o início do loop
+    //Volta para o início do loop
     cout << "\tgoto L" << before << endl;
-    //finaliza o loop
+    //Finaliza o loop
     cout << "L" << after << ":" << endl;
 
 }
 ```
+
+Created the label for start of `While` : ```cout << "L" << before << ":" << endl ```
+Evaluate the condition of `While` : ```Expression *n = Rvalue(expr);```
+If the condition is false, go to end of `While` : ```cout << "\tifFalse " << n->ToString() << " goto L" <<after<< endl;```
+Generates the code inside `While`  :``` stmt->Gen(); ```
+Back to the beginner the `While` :```cout << "\tgoto L" << before << endl;```
+End of the `While`: ```cout << "L" << after << ":" << endl;```
