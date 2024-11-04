@@ -2,7 +2,7 @@
 
 ## Modify the project in order to generate Intermediate code for `While` instruction.
 
-The codes were developed for professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab11)
+The codes were developed by professor JUDSON SANTIAGO where you find [here](https://github.com/JudsonSS/Compiladores/tree/master/Labs/Lab11)
 
 ## The Solution
 ```c++
