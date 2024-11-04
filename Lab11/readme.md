@@ -27,7 +27,7 @@ void While::Gen()
 - Evaluate the condition of `While` : ```Expression *n = Rvalue(expr);```
 - If the condition is false, go to end of `While` : ```cout << "\tifFalse " << n->ToString() << " goto L" <<after<< endl;```
 - Generates the code inside `While`  :``` stmt->Gen(); ```
-- Back to the beginning of the `While` :```cout << "\tgoto L" << before << endl;```
+- Back to the beginning of `While` :```cout << "\tgoto L" << before << endl;```
 - End of the `While`: ```cout << "L" << after << ":" << endl;```
 
 ## Example
