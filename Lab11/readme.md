@@ -23,7 +23,7 @@ void While::Gen()
 }
 ```
 
-- Created the label for start of `While` : ```cout << "L" << before << ":" << endl ```
+- Creat the label for start of `While` : ```cout << "L" << before << ":" << endl ```
 - Evaluate the condition of `While` : ```Expression *n = Rvalue(expr);```
 - If the condition is false, go to end of `While` : ```cout << "\tifFalse " << n->ToString() << " goto L" <<after<< endl;```
 - Generates the code inside `While`  :``` stmt->Gen(); ```
