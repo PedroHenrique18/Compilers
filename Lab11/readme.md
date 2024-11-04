@@ -62,54 +62,54 @@ int main()
 
 Result:
 
-`    flag = true`
+`    flag = true             `
 
-`L4:`
+`L4:                         `
 
-`    ifFalse flag goto L5`
+`    ifFalse flag goto L5    `
 
-`L1:`
+`L1:                         `
 
-`    t1 = i + 1`
+`    t1 = i + 1              `
 
-`    i = t1`
+`    i = t1                  `
 
-`    t3 = a[i]`
+`    t3 = a[i]               `
 
-`    t2 = t3 < v`
+`    t2 = t3 < v             `
 
-`    ifTrue t2 goto L1`
+`    ifTrue t2 goto L1       `
 
-`L2:`
+`L2:                         `
 
-`    t4 = j - 1`
+`    t4 = j - 1              `
 
-`    j = t4`
+`    j = t4                  `
 
-`    t6 = a[j]`
+`    t6 = a[j]               `
 
-`    t5 = t6 > v`
+`    t5 = t6 > v             `
 
-`    ifTrue t5 goto L2`
+`    ifTrue t5 goto L2       `
 
-`    t7 = i >= j`
+`    t7 = i >= j             `
 
-`    ifFalse t7 goto L3`
+`    ifFalse t7 goto L3      `
 
-`    flag = false`
+`    flag = false            `
 
-`L3:`
+`L3:                         `
 
-`    t8 = a[i]`
+`    t8 = a[i]               `
 
-`    x = t8`
+`    x = t8                  `
 
-`    t9 = a[j]`
+`    t9 = a[j]               `
 
-`    a[i] = t9`
+`    a[i] = t9               `
 
-`    a[j] = x`
+`    a[j] = x                `
 
-`    goto L4`
+`    goto L4                 `
 
-`L5:`
+`L5:                         `
