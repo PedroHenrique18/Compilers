@@ -49,3 +49,11 @@ id	    (_|{letra})({letra}|{digito}|_)*
 ```
 
  ### d) Include the pattern for the ```STRING``` token
+
+A new regular expression called "string" was created
+ 
+```c++
+string  \"[A-Z,a-z,0-9,\\,//,_ \"\t]*\"
+```
+
+## Result:
