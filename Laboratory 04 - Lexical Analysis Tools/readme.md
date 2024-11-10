@@ -56,4 +56,26 @@ A new regular expression called "string" was created
 string  \"[A-Z,a-z,0-9,\\,//,_ \"\t]*\"
 ```
 
-## Result:
+## Testing the implemented functionalities
+
+```txt
+minhaVariavel
+_minhaVariavel
+minha_Variavel
+"um "exemplo" com /\ caractere _ especial"
+
+if valor > 2.5E+30 then
+    ok
+else
+    problem
+while valor != 2.5 then
+    ok
+```
+
+### Running the command in the terminal
+```cmd
+Running the command in the terminal
+```
+
+
+
