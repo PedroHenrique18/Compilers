@@ -9,3 +9,7 @@ The codes were developed by professor JUDSON SANTIAGO where you find [here](http
 - d) Include the pattern for the ```STRING``` token
 
 ## The Solution
+
+### a) Include the key word ```while```
+
+``` ```
