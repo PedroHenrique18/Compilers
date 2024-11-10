@@ -74,7 +74,7 @@ while valor != 2.5 then
 
 ### Running the command in the terminal
 
-```cmd
+```bash
 sample.exe < ../test.txt
 ```
 
