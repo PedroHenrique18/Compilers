@@ -73,9 +73,11 @@ while valor != 2.5 then
 ```
 
 ### Running the command in the terminal
+
 ```cmd
-Running the command in the terminal
+sample.exe < ../test.txt
 ```
+
 
 
 
