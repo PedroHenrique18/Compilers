@@ -14,7 +14,7 @@ The codes were developed by professor JUDSON SANTIAGO where you find [here](http
 
 First was to add the ``` while``` keyword in the lexical analyzer: ```while       return WHILE; ```
 
-Add the constant to the ```while```: ```cpp
+Add the constant to the ```while```: ```c++
 enum {
     IF = 1,
     WHILE,
