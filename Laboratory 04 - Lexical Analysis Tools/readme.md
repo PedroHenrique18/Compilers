@@ -14,17 +14,9 @@ The codes were developed by professor JUDSON SANTIAGO where you find [here](http
 
 First was to add the ``` while``` keyword in the lexical analyzer: ```while       return WHILE; ```
 
-Add the constant to the ```while```: ```c++
-enum {
-    IF = 1,
-    WHILE,
-    THEN,
-    ELSE,
-    ID,
-    NUM,
-    RELOP,
-    STRING
-};```
+Add the constant to the ```while```: ```
+// constantes para os tokens 
+enum {IF=1, WHILE, THEN, ELSE, ID, NUM, RELOP, STRING};```
 
 Treats the "TOKEN" received from the lexical analyzer: ```case WHILE:cout <<"WHILE\n"; break;```
 
