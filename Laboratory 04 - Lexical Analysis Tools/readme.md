@@ -78,6 +78,29 @@ while valor != 2.5 then
 sample.exe < ../test.txt
 ```
 
+### Output
+
+```bash
+C:\Users\pedro\Desktop\Compilers\Laboratory 04 - Lexical Analysis Tools\build>sample.exe < ../test.txt
+ID: minhaVariavel
+ID: _minhaVariavel
+ID: minha_Variavel
+STRING: "um "exemplo" com /\ caractere _ especial"
+IF
+ID: valor
+RELOP: >
+NUM: 2.5E+30
+THEN
+ID: ok
+ELSE
+ID: problem
+WHILE
+ID: valor
+RELOP: !=
+NUM: 2.5
+THEN
+ID: ok
+```
 
 
 
