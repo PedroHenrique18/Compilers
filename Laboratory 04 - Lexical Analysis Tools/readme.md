@@ -80,7 +80,7 @@ sample.exe < ../test.txt
 
 ### Output
 
-```bash
+```txt
 C:\Users\pedro\Desktop\Compilers\Laboratory 04 - Lexical Analysis Tools\build>sample.exe < ../test.txt
 ID: minhaVariavel
 ID: _minhaVariavel
