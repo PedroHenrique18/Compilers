@@ -43,7 +43,9 @@ Adding all relational operations to c++
 It was necessary to add ```_``` at the beginning of the regular expression and in the body
 
 ```c++
+letra	[A-Za-z]
+digito	[0-9]
 id	    (_|{letra})({letra}|{digito}|_)*
 ```
 
- d) Include the pattern for the ```STRING``` token
+ ### d) Include the pattern for the ```STRING``` token
