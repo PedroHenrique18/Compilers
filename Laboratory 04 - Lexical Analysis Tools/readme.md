@@ -28,12 +28,12 @@ case WHILE:cout <<"WHILE\n"; break;
 
 Adding all relational operations to c++
 ```c++
-"<"		   return RELOP; 
+"<"		  return RELOP; 
 "<="		return RELOP; 
-"="		   return RELOP; 
+"="		  return RELOP; 
 "=="		return RELOP;
 "!="		return RELOP;
 "<>"		return RELOP; 
-">"		   return RELOP;
+">"		  return RELOP;
 ">="		return RELOP; 
 ```
