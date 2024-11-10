@@ -4,9 +4,8 @@ The codes were developed by professor JUDSON SANTIAGO where you find [here](http
 
 ## Modify the project to include
 - a) Include the key word ```while```
-- b)
-- c)
-- d)
-
+- b) Change relational operators to the same c++
+- c) allow underscore characters in identifier
+- d) Include the pattern for the ```STRING``` token
 
 ## The Solution
