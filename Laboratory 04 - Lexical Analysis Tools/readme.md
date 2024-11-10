@@ -25,3 +25,15 @@ case WHILE:cout <<"WHILE\n"; break;
 ```
 
 ### b) Change relational operators to the same c++
+
+Adding all relational operations to c++
+```c++
+"<"		    return RELOP; 
+"<="		return RELOP; 
+"="		    return RELOP; 
+"=="		return RELOP;
+"!="		return RELOP;
+"<>"		return RELOP; 
+">"		    return RELOP;
+">="		return RELOP; 
+```
