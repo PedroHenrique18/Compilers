@@ -12,7 +12,7 @@ The codes were developed by professor JUDSON SANTIAGO where you find [here](http
 
 ### a) Include the key word ```while```
 
-First was to add the ```while``` keyword in the lexical analyzer: ```while       return WHILE; ```
+First was to add the ```c++ while``` keyword in the lexical analyzer: ```while       return WHILE; ```
 
 Add the constant to the ```while``` ```enum {IF=1, WHILE, THEN, ELSE, ID, NUM, RELOP, STRING}; ```
 
