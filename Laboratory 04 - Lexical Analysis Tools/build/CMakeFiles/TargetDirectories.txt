@@ -1,0 +1,1 @@
+C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/CMakeFiles/sample.dir
