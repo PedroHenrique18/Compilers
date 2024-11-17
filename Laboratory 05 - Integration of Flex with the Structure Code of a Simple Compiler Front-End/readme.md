@@ -204,7 +204,7 @@ L3:
 L5:
 ```
 
-[![Loom Icon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYGR0Qpnbv75w2xuSbuJ1DKArxFZTTDzWHdg&s)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
+[![Loom Icon](https://seeklogo.com/images/L/loom-logo-A703F371A3-seeklogo.com.png)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
 
 
 
