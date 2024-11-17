@@ -123,7 +123,7 @@ struct Token {
 
 ## To make the code use the Flex-generated lexical analyzer instead of the manual lexical analyzer, you need to change the scanner declaration to use the Flex-generated yyFlexLexer type. In the code, replace:
 
-```
+```c++
 extern Lexer * scanner;
 ```
 
