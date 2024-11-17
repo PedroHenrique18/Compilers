@@ -1,12 +1,15 @@
 file(REMOVE_RECURSE
-  "lex.yy.cc"
-  "CMakeFiles/sample.dir/parser.cpp.obj"
-  "CMakeFiles/sample.dir/sample.cpp.obj"
   "CMakeFiles/sample.dir/lex.yy.cc.obj"
-  "sample.pdb"
+  "CMakeFiles/sample.dir/lex.yy.cc.obj.d"
+  "CMakeFiles/sample.dir/parser.cpp.obj"
+  "CMakeFiles/sample.dir/parser.cpp.obj.d"
+  "CMakeFiles/sample.dir/sample.cpp.obj"
+  "CMakeFiles/sample.dir/sample.cpp.obj.d"
+  "lex.yy.cc"
+  "libsample.dll.a"
   "sample.exe"
   "sample.exe.manifest"
-  "libsample.dll.a"
+  "sample.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

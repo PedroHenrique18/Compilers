@@ -1,1 +1,3 @@
-C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/CMakeFiles/sample.dir
+C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build/CMakeFiles/sample.dir
+C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build/CMakeFiles/edit_cache.dir
+C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build/CMakeFiles/rebuild_cache.dir

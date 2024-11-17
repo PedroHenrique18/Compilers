@@ -1,25 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/lex.yy.cc" "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/CMakeFiles/sample.dir/lex.yy.cc.obj"
-  "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/parser.cpp" "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/CMakeFiles/sample.dir/parser.cpp.obj"
-  "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/sample.cpp" "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/CMakeFiles/sample.dir/sample.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/msys64/usr/include"
-  "."
-  ".."
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build/lex.yy.cc" "CMakeFiles/sample.dir/lex.yy.cc.obj" "gcc" "CMakeFiles/sample.dir/lex.yy.cc.obj.d"
+  "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/parser.cpp" "CMakeFiles/sample.dir/parser.cpp.obj" "gcc" "CMakeFiles/sample.dir/parser.cpp.obj.d"
+  "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/sample.cpp" "CMakeFiles/sample.dir/sample.cpp.obj" "gcc" "CMakeFiles/sample.dir/sample.cpp.obj.d"
   )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

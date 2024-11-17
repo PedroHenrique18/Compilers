@@ -1,17 +1,20 @@
 [
 {
-  "directory": "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build",
-  "command": "C:\\MinGW\\bin\\g++.exe    -O3 -DNDEBUG @CMakeFiles/sample.dir/includes_CXX.rsp   -o CMakeFiles\\sample.dir\\parser.cpp.obj -c C:\\Users\\pedro\\Desktop\\compiladores\\Lab14\\Sample\\parser.cpp",
-  "file": "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/parser.cpp"
+  "directory": "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/sample.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\sample.dir\\parser.cpp.obj -c \"C:\\Users\\pedro\\Desktop\\Compilers\\Laboratory 04 - Lexical Analysis Tools\\parser.cpp\"",
+  "file": "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/parser.cpp",
+  "output": "CMakeFiles/sample.dir/parser.cpp.obj"
 },
 {
-  "directory": "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build",
-  "command": "C:\\MinGW\\bin\\g++.exe    -O3 -DNDEBUG @CMakeFiles/sample.dir/includes_CXX.rsp   -o CMakeFiles\\sample.dir\\sample.cpp.obj -c C:\\Users\\pedro\\Desktop\\compiladores\\Lab14\\Sample\\sample.cpp",
-  "file": "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/sample.cpp"
+  "directory": "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/sample.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\sample.dir\\sample.cpp.obj -c \"C:\\Users\\pedro\\Desktop\\Compilers\\Laboratory 04 - Lexical Analysis Tools\\sample.cpp\"",
+  "file": "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/sample.cpp",
+  "output": "CMakeFiles/sample.dir/sample.cpp.obj"
 },
 {
-  "directory": "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build",
-  "command": "C:\\MinGW\\bin\\g++.exe    -O3 -DNDEBUG @CMakeFiles/sample.dir/includes_CXX.rsp   -o CMakeFiles\\sample.dir\\lex.yy.cc.obj -c C:\\Users\\pedro\\Desktop\\compiladores\\Lab14\\Sample\\build\\lex.yy.cc",
-  "file": "C:/Users/pedro/Desktop/compiladores/Lab14/Sample/build/lex.yy.cc"
+  "directory": "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/sample.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\sample.dir\\lex.yy.cc.obj -c \"C:\\Users\\pedro\\Desktop\\Compilers\\Laboratory 04 - Lexical Analysis Tools\\build\\lex.yy.cc\"",
+  "file": "C:/Users/pedro/Desktop/Compilers/Laboratory 04 - Lexical Analysis Tools/build/lex.yy.cc",
+  "output": "CMakeFiles/sample.dir/lex.yy.cc.obj"
 }
 ]
