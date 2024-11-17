@@ -204,6 +204,7 @@ L3:
 L5:
 ```
 
-[![](https://skillicons.dev/icons?i=loom)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
+[![Loom Icon](https://static-00.iconduck.com/assets.00/loom-color-icon-2048x2048-32zlq06e.png)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
+
 
 
