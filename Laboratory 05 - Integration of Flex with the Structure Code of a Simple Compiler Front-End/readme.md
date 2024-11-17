@@ -204,7 +204,7 @@ L3:
 L5:
 ```
 
-[![Loom Icon](https://static-00.iconduck.com/assets.00/loom-color-icon-2048x2048-32zlq06e.png)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
+[![Loom Icon](https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e00a0dfee680e30e6bc80_1a8874c9-41cc-5146-b933-17d885c1dbde.svg)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
 
 
 
