@@ -99,8 +99,30 @@ int yywrap() {
 enum Tag { ID = 256, INTEGER, FLOATING, BOOLEAN, TRUE, FALSE, MAIN, IF, ELSE, WHILE, DO, OR, AND, EQ, NEQ, LT, LTE, GT, GTE};
 ```
 
+### The ```tokens.h``` file defines the structure of a token.
+
 
 ## Testing the implemented functionalities
+
+```c++
+#ifndef TOKEN_H
+#define TOKEN_H
+
+#include <string>
+using std::string;
+
+struct Token {
+    int tag;
+    string lexeme;
+
+    Token() : tag(0) {}
+    Token(char ch) : tag(int(ch)), lexeme({ch}) {}
+    Token(int t, const char* s) : tag(t), lexeme(s) {}
+};
+
+#endif // TOKEN_H
+
+```
 
 ```c++
 int main()
