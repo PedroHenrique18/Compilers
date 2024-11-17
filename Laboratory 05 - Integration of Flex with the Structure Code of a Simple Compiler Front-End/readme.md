@@ -206,6 +206,6 @@ L5:
 
 
 
-[Video Link](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
-
+## Video Link
+The video can be watched via this [link](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
 
