@@ -87,6 +87,8 @@ int yywrap() {
 
 ```
 
+### ```Flex``` stores these Token objects in the ```yylval.token``` field, which allows the token semantics to be preserved and manipulated by the parser.
+
 
 ## Testing the implemented functionalities
 
