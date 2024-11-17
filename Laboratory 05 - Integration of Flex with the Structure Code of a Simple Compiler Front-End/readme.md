@@ -204,7 +204,7 @@ L3:
 L5:
 ```
 
-[![Loom Icon](https://iconduck.com/icons/242144/loom-color?shared)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
+[![Loom Icon](https://media.tekpon.com/2022/01/Loom-Logo.webp)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
 
 
 
