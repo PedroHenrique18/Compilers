@@ -42,7 +42,7 @@ int main()
 ### Running the command in the terminal
 
 ```bash
-sample.exe < ../test.txt
+tradutor.exe ../Testes/teste4.cpp
 ```
 
 ### Output
