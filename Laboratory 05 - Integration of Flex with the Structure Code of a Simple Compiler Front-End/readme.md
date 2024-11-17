@@ -87,7 +87,11 @@ int yywrap() {
 
 ```
 
-### ```Flex``` stores these Token objects in the ```yylval.token``` field, which allows the token semantics to be preserved and manipulated by the parser.
+### ```Flex``` stores these ```Token``` objects in the ```yylval.token``` field, which allows the token semantics to be preserved and manipulated by the parser.
+```c++
+{ yylval.token = new Token(EQ, yytext); return EQ; }
+```
+
 
 
 ## Testing the implemented functionalities
