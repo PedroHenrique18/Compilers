@@ -204,7 +204,8 @@ L3:
 L5:
 ```
 
-[![Loom Icon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXuBK0TVAxoijSJh4ZBDzj4UrEOPGM7P03G1UODjoihAbslxolUtOWAFoQiKRmtuIOuQ&usqp=CAU)](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
 
+
+[Video Link](https://www.loom.com/share/127bddf215274076ad181fd0d043fcac)
 
 
